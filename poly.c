@@ -2,6 +2,8 @@
 #include <sys/mman.h>
 #include <unistd.h>
 #include <stdint.h>
+#include <openssl/rand.h>
+#include <openssl/aes.h>
 
 // a function that will get encrypted that we will later define
 void encrypted();
